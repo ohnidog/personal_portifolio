@@ -1,0 +1,61 @@
+html {
+    font-family: 'Titillium Web' , sans-serif;
+    color: black;
+}
+
+body {
+    background-color: #c6c1c1;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+
+}
+
+nav {
+
+    text-align: right;
+    font-weight: bold;
+}
+
+#general li {
+    list-style-type: none;
+    display: inline;
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+li:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+main {
+    font-size: 22px;
+    padding: 20px;
+}
+
+
+#project-list li {
+    list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg");
+
+}
+
+
+.skills {
+    display: inline;
+
+
+}
+
+img {
+    display: inline;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+}
