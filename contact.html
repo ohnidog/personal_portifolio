@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Titillium+Web&display=swap" rel="stylesheet">
     <title>Contact Me</title>
 </head>
 <body>
-<h1>Concat Page TBC</h1>
+<nav class="contact">
+    <h1>Rach Out!</h1>
+    <a href="https://www.linkedin.com/in/henrique-godinho-552a2a67/" target="_blank"><img id="linkedin_logo" src="resources/Linked_in.png" alt="linkedIn logo"></a>
+    <a href="https://github.com/ohnidog" target="_blank"><img id="github_logo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github logo"></a>
+</nav>
+
+<main>
+    <header id="contact-header">
+        <h1>Contact via Email</h1>
+    </header>
+<label for="subject">Enter your Subject</label>
+    <input type="text" id="subject" name="subject" maxlength="50" required>
+    <br>
+<label for="message">Enter your message</label>
+    <textarea id="message" rows="15" cols="50" maxlength="1000" minlength="3"></textarea>
+
+<input type="submit">
+
+
+</main>
 </body>
 </html>

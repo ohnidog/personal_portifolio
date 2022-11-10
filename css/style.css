@@ -53,9 +53,20 @@ main {
 
 }
 
-img {
+#html_logo, #js_logo, #css_logo, #python_logo {
     display: inline;
     width: 200px;
     height: 200px;
     padding: 15px;
+}
+
+#contact-header {
+    text-align: left;
+}
+
+
+
+#linkedin_logo, #github_logo {
+    height:50px;
+    width: 50px;
 }
